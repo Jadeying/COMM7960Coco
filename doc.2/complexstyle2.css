@@ -1,0 +1,102 @@
+.nav_header{
+    display: inline;
+}
+/**
+.email{
+    display:none;
+}**/
+
+header {
+    background-color:lightblue;
+  }
+
+
+@keyframes translate {
+    0% {transform: translate(20px, -20px);}
+  25%  {transform: translate(50px, -50px)}
+  50%  {transform: translate(100px, -100px);}
+  100% {transform: translate(20px, -20px);}    
+}
+
+@keyframes rotation {
+    0% {transform: rotate(50deg);}
+  25%  {transform: rotate(90deg);}
+  50%  {transform: rotate(135deg);}
+  100% {transform: rotate(180deg);}    
+}
+
+.image1_animation{
+    border-radius: 50%;
+}
+.image1_animation
+{
+      animation-name: translate;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+}
+
+.image2_animation{
+    border-radius: 50%;
+}
+.image2_animation:hover
+{
+      animation-name: rotation;
+      animation-duration: 4s;
+}
+
+.image3{
+    border-radius: 50%;
+}
+.image3:hover{
+    transform: translate(30px, 30px);
+}
+
+.image4{
+    border-radius: 50%;
+}
+.image4:hover{
+    transform: scale(2);
+}
+
+.image5{
+    border-radius: 50%;
+}
+.image5:hover{
+    transform: rotate(45deg);
+}
+
+.image6{
+    border-radius: 50%;
+}
+.image6:hover{
+    transform: skew(50deg, -15deg);
+    filter: grayscale(100%)
+}
+
+  /* Create two columns/boxes that floats next to each other */
+  main
+  {
+      background-color:rgb(241, 149, 70);
+      display: grid; 
+      /*grid-template-columns: 10% 90%;*/ 
+      grid-template-columns: 1fr 9fr; 
+      grid-gap:15px;
+  }
+  
+  nav {
+      background: rgb(159, 170, 224);
+  }
+    
+  article {
+      background-color:navajowhite;
+      display: grid;
+      grid-template-columns: 2fr 4fr 4fr; 
+      grid-gap:15px;
+     /** border: 15px solid green;
+      padding: 100px;
+      margin: 30px*/
+  }
+    
+  footer {
+      background-color: rgb(107, 105, 105);
+  }

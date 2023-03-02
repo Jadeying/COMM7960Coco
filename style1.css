@@ -1,0 +1,28 @@
+h1.Coco_intro
+{
+    text-align:center;
+    color:orangered;
+}
+
+h2.standout{
+    color:rgb(175, 175, 227);
+    font-size:27px;
+}
+
+h3.standout{
+    color:rgb(237, 131, 92);
+    font-size:20px;
+}
+
+p.Coco_inspiration
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align:left;
+    background:linear-gradient(rgb(98, 133, 219),rgb(255, 89, 0));
+}
+
+p.Coco_plot
+{
+    text-align:center;
+    background:radial-gradient(rgb(86, 131, 209),rgb(237, 64, 34));
+}
